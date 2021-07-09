@@ -1,17 +1,16 @@
-const { get } = require('axios')
+/**
+ * fortnite-api-io
+ * Module to make API calls to fortool
+ *
+ * @author Artlfmj
+ * @license MIT
+ */
 
-exports.shop = function(lang) {
-    
-    if(lang){
-        get(`https://fortool.fr/cm/api/v1/shop?lang=${lang}`)
-        .catch(e => { return console.error(e)})
-        .then(data => {
-            
-            return data.data
-        })
-        
-    } else {
-        console.log(1)
-    }
-    
-}
+"use strict";
+
+/**
+ * index.js
+ * Export the API Class
+ */
+const Fortool = require("./lib/fortool");
+module.exports = Fortool;

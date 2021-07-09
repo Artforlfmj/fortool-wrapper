@@ -1,6 +1,6 @@
 {
-  "name": "fortool-wrapper",
-  "version": "1.0.0",
+  "name": "fortool",
+  "version": "1.0.1",
   "description": "Fortool api Official Wrapper",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/Artforlfmj/fortool-wrapper#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.10"
   }
 }
