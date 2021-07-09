@@ -1,0 +1,33 @@
+{
+  "name": "fortool-wrapper",
+  "version": "1.0.0",
+  "description": "Fortool api Official Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artforlfmj/fortool-wrapper.git"
+  },
+  "keywords": [
+    "Fortool",
+    "Fortnite",
+    "Wrapper",
+    "API",
+    "theobnts",
+    "Artlfmj",
+    "fnapi.io"
+  ],
+  "author": "Artlfmj#2660",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artforlfmj/fortool-wrapper/issues"
+  },
+  "homepage": "https://github.com/Artforlfmj/fortool-wrapper#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.10"
+  }
+}
